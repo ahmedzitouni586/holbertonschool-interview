@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """check all locked boxes"""
 
+
 def canUnlockAll(boxes):
     u = [0]
     if len(boxes) == 0:
@@ -14,4 +15,3 @@ def canUnlockAll(boxes):
     if len(u) == len(boxes):
         return True
     return False
-    
