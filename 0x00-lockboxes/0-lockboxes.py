@@ -1,12 +1,12 @@
 #!/usr/bin/python3
+"""check all locked boxes"""
 
 def canUnlockAll(boxes):
     u = [0]
-    n = len(boxes)
-    if n == 0:
+    if len(boxes) == 0:
         return True
-    for b in u:
-        for key in boxes[b]:
+    for box in u:
+        for key in boxes[box]:
             if key not in u:
                 if key < len(boxes):
                     u.append(key)
