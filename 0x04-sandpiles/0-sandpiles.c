@@ -93,7 +93,7 @@ static void print_grid(int grid[3][3])
 /**
  * add_grids - sums two sandpiles
  * @grid1: first sandpile
- * grid2: second sandpile
+ * @grid2: second sandpile
  */
 void add_grids(int grid1[3][3], int grid2[3][3])
 {
