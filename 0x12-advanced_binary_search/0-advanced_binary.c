@@ -11,8 +11,8 @@
 void print_array(int *array, int left, int right) 
 {
 	printf("Searching in array: ");
-	for(int i = left;i <= right; i++)
-		printf("%d%c", array[i], i == right ? '\n' : ',');
+	for(int i = left; i <= right; i++)
+		printf(" %d%c", array[i], i == right ? '\n' : ',');
 }
 
 /**
